@@ -3,6 +3,7 @@
 name: GitHub Pages
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master  # Set a branch name to trigger deployment
